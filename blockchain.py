@@ -3,7 +3,7 @@ import hashlib
 from fastapi import Request
 from time import time
 from typing import List
-
+# uvicorn blockchain:app --reload --port 8000      
 class Block:
     def __init__(self, timestamp, data, previous_hash):
         self.timestamp = timestamp
